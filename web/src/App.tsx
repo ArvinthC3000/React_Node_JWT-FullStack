@@ -1,10 +1,19 @@
+import { useQuery } from '@apollo/react-hooks';
+import { gql } from 'apollo-boost';
 import React from 'react';
 
 const App: React.FC = () => {
-  return (
-    <div className="App">Helloow, Ross
-    </div>
-  );
+  const {data, loading} = useQuery(gql`
+  {
+    hello
+  }
+  `)
+
+  if(loading)
+  return <div>loading...</div>
+  
+  return <div>{JSON.stringify(data)}</div>
+
 }
 
 export default App;
