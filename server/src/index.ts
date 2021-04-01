@@ -9,14 +9,20 @@ import { verify } from 'jsonwebtoken';
 import { User } from './entity/User';
 import { createAccessToken, createRefershToken } from './auth';
 import { sendRefreshToken } from './sendRefreshToken';
+import cors from 'cors';
 
 (async () => {
     const app = express();
+    app.use(cors({
+        origin: "http://localhost:3000",
+        credentials: true
+    }))
     app.use(cookieParser())
     app.get('/', (_req, res) => res.send("Hello"))
     // postman
     app.post('/refresh_token', async (req, res) => {
         const token = req.cookies.jwt
+        console.log(token);
         if (!token) return res.send({ ok: false, accessToken: "" })
 
         let payload: any = null
@@ -61,7 +67,7 @@ import { sendRefreshToken } from './sendRefreshToken';
         // }
     })
 
-    apolloServer.applyMiddleware({ app })
+    apolloServer.applyMiddleware({ app, cors: false })
 
     app.listen(4000, () => console.log('express server is started'))
 
