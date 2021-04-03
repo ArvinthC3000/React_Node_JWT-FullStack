@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { RouteComponentProps } from 'react-router';
 import { MeDocument, MeQuery, useLoginMutation } from '../generated/graphql';
-import { setAccessToken } from '../variables/accessToken';
+import { setAccessToken } from '../configs/accessToken';
 
 export const Login: React.FC<RouteComponentProps> = ({ history }) => {
 

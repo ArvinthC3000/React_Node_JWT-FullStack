@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ApolloProvider } from '@apollo/react-hooks';
-import { getAccessToken, setAccessToken } from './variables/accessToken';
+import { getAccessToken, setAccessToken } from './configs/accessToken';
 import { App } from './pages/App';
 import { ApolloClient } from 'apollo-client';
 

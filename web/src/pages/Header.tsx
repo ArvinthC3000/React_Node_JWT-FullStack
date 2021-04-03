@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useLogOutMutation, useMeQuery } from '../generated/graphql'
-import { setAccessToken } from '../variables/accessToken'
+import { setAccessToken } from '../configs/accessToken'
 
 interface Props {
 
