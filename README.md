@@ -34,13 +34,14 @@ yarn
 
 ## Author
 ### Arvinth C    
-[LinkedIn](https://www.linkedin.com/in/arvinth-chandrasekaran-64236a79),     
+LinkedIn: [Arvinth Chandrasekaran](https://www.linkedin.com/in/arvinth-chandrasekaran-64236a79),     
 email: arvinthc97@gmail.com
 
 ## References
 * [ReactJS](https://reactjs.org/docs/getting-started.html)
 * [JSX](https://reactjs.org/docs/introducing-jsx.html)
-* [Open Weather](https://openweathermap.org/api) - to fetch weather data
-* [Axios](https://www.npmjs.com/package/axios)
+* [NodeJs](https://nodejs.org/en/) - to fetch weather data
+* [GraphQL](https://graphql.org/)
 * [JavaScript-ES6](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
-* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+* [Apollo Client](https://www.apollographql.com/docs/apollo-server/v1/)
+* [PostgreSQL](https://www.postgresql.org/)
