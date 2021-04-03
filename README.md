@@ -1,5 +1,5 @@
 # React_Node_JWT-FullStack
-Full-stack application focussed on JWT authentication, using ReactJs in frontend and NodJs in the backend, with GraphQL, Apollo Client, and Postgres as database complimenting the project. (With reference to Ben Awad's youtube tutorial.)
+Full-stack application focussed on JWT authentication, using ReactJs in frontend and NodeJs in the backend, with GraphQL, Apollo Client, and Postgres as database complimenting the project. (With reference to Ben Awad's youtube tutorial.)
 
 ## Run Node server
 
@@ -50,6 +50,7 @@ email: arvinthc97@gmail.com
 * [JSX](https://reactjs.org/docs/introducing-jsx.html)
 * [NodeJs](https://nodejs.org/en/) - to fetch weather data
 * [GraphQL](https://graphql.org/)
-* [JavaScript-ES6](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 * [Apollo Client](https://www.apollographql.com/docs/apollo-server/v1/)
 * [PostgreSQL](https://www.postgresql.org/)
+* [JWT](https://jwt.io/)
+* [JavaScript-ES6](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
