@@ -13,6 +13,11 @@ npm i
 ````base
 yarn
 ````
+And then run 
+````base
+npm start
+````
+
 Note: npm and/or yarn should be pre-installed
 This server uses postgres as database. You can configure it's credintial from `ormconfig.json`.
 
@@ -29,8 +34,11 @@ npm i
 ````base
 yarn
 ````
-
-
+And the run 
+````base
+npm start
+````
+For further details, read Readme2.md by clicking [here](https://github.com/ArvinthC3000/React_Node_JWT-FullStack/tree/master/web#readme)
 
 ## Author
 ### Arvinth C    
