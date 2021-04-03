@@ -8,7 +8,7 @@ interface Props {
 export const Home: React.FC<Props> = (props: Props) => {
     const { data, loading, error } = useUsersQuery({ fetchPolicy: 'network-only' })
 
-    console.log(data, loading);
+    // console.log(data, loading);
     if (!data || loading) return <div>Loading...</div>
     if (error) return <div>Error</div>
 
