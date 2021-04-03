@@ -8,7 +8,7 @@ interface Props {
 
 export const Header: React.FC<Props> = () => {
 
-    const { data, loading } = useMeQuery({ fetchPolicy: "network-only" })
+    const { data, loading } = useMeQuery()
 
     let body: any = null;
     if (loading) {
